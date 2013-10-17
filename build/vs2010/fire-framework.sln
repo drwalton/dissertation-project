@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ao-and-phong-demo", "ao-and-phong-demo\ao-and-phong-demo.vcxproj", "{33E45C2A-06DB-47FC-8965-94B704106797}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F8D34798-2D7B-4FFC-B2A1-E39FD9FAF39D} = {F8D34798-2D7B-4FFC-B2A1-E39FD9FAF39D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fire-framework", "fire-framework\fire-framework.vcxproj", "{F8D34798-2D7B-4FFC-B2A1-E39FD9FAF39D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cubemap-sh-demo", "cubemap-sh-demo\cubemap-sh-demo.vcxproj", "{E603E5D6-8D3A-4B05-B377-A747BB40DA10}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F8D34798-2D7B-4FFC-B2A1-E39FD9FAF39D} = {F8D34798-2D7B-4FFC-B2A1-E39FD9FAF39D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fire-demo", "fire-demo\fire-demo.vcxproj", "{62F2C5C4-7F69-4487-91B8-89EE74FDF2B9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F8D34798-2D7B-4FFC-B2A1-E39FD9FAF39D} = {F8D34798-2D7B-4FFC-B2A1-E39FD9FAF39D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fire-forces-demo", "fire-forces-demo\fire-forces.vcxproj", "{27469565-1C6F-4858-9AA0-F316ED768073}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F8D34798-2D7B-4FFC-B2A1-E39FD9FAF39D} = {F8D34798-2D7B-4FFC-B2A1-E39FD9FAF39D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fire-lighting-demo", "fire-lighting-demo\fire-lighting-demo.vcxproj", "{2A4717ED-3317-495E-804C-53B3C7FC77EB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F8D34798-2D7B-4FFC-B2A1-E39FD9FAF39D} = {F8D34798-2D7B-4FFC-B2A1-E39FD9FAF39D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fire-sh-demo", "fire-sh-demo\fire-sh-demo.vcxproj", "{3D95AE36-C4E4-445D-B87E-A7C95187224B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F8D34798-2D7B-4FFC-B2A1-E39FD9FAF39D} = {F8D34798-2D7B-4FFC-B2A1-E39FD9FAF39D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sh-plot-demo", "sh-plot-demo\sh-plot-demo.vcxproj", "{4A98C3CE-C0E2-4648-9082-1560C916CE5C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F8D34798-2D7B-4FFC-B2A1-E39FD9FAF39D} = {F8D34798-2D7B-4FFC-B2A1-E39FD9FAF39D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33E45C2A-06DB-47FC-8965-94B704106797}.Debug|Win32.ActiveCfg = Debug|Win32
+		{33E45C2A-06DB-47FC-8965-94B704106797}.Debug|Win32.Build.0 = Debug|Win32
+		{33E45C2A-06DB-47FC-8965-94B704106797}.Release|Win32.ActiveCfg = Release|Win32
+		{33E45C2A-06DB-47FC-8965-94B704106797}.Release|Win32.Build.0 = Release|Win32
+		{F8D34798-2D7B-4FFC-B2A1-E39FD9FAF39D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F8D34798-2D7B-4FFC-B2A1-E39FD9FAF39D}.Debug|Win32.Build.0 = Debug|Win32
+		{F8D34798-2D7B-4FFC-B2A1-E39FD9FAF39D}.Release|Win32.ActiveCfg = Release|Win32
+		{F8D34798-2D7B-4FFC-B2A1-E39FD9FAF39D}.Release|Win32.Build.0 = Release|Win32
+		{E603E5D6-8D3A-4B05-B377-A747BB40DA10}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E603E5D6-8D3A-4B05-B377-A747BB40DA10}.Debug|Win32.Build.0 = Debug|Win32
+		{E603E5D6-8D3A-4B05-B377-A747BB40DA10}.Release|Win32.ActiveCfg = Release|Win32
+		{E603E5D6-8D3A-4B05-B377-A747BB40DA10}.Release|Win32.Build.0 = Release|Win32
+		{62F2C5C4-7F69-4487-91B8-89EE74FDF2B9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{62F2C5C4-7F69-4487-91B8-89EE74FDF2B9}.Debug|Win32.Build.0 = Debug|Win32
+		{62F2C5C4-7F69-4487-91B8-89EE74FDF2B9}.Release|Win32.ActiveCfg = Release|Win32
+		{62F2C5C4-7F69-4487-91B8-89EE74FDF2B9}.Release|Win32.Build.0 = Release|Win32
+		{27469565-1C6F-4858-9AA0-F316ED768073}.Debug|Win32.ActiveCfg = Debug|Win32
+		{27469565-1C6F-4858-9AA0-F316ED768073}.Debug|Win32.Build.0 = Debug|Win32
+		{27469565-1C6F-4858-9AA0-F316ED768073}.Release|Win32.ActiveCfg = Release|Win32
+		{27469565-1C6F-4858-9AA0-F316ED768073}.Release|Win32.Build.0 = Release|Win32
+		{2A4717ED-3317-495E-804C-53B3C7FC77EB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2A4717ED-3317-495E-804C-53B3C7FC77EB}.Debug|Win32.Build.0 = Debug|Win32
+		{2A4717ED-3317-495E-804C-53B3C7FC77EB}.Release|Win32.ActiveCfg = Release|Win32
+		{2A4717ED-3317-495E-804C-53B3C7FC77EB}.Release|Win32.Build.0 = Release|Win32
+		{3D95AE36-C4E4-445D-B87E-A7C95187224B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3D95AE36-C4E4-445D-B87E-A7C95187224B}.Debug|Win32.Build.0 = Debug|Win32
+		{3D95AE36-C4E4-445D-B87E-A7C95187224B}.Release|Win32.ActiveCfg = Release|Win32
+		{3D95AE36-C4E4-445D-B87E-A7C95187224B}.Release|Win32.Build.0 = Release|Win32
+		{4A98C3CE-C0E2-4648-9082-1560C916CE5C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4A98C3CE-C0E2-4648-9082-1560C916CE5C}.Debug|Win32.Build.0 = Debug|Win32
+		{4A98C3CE-C0E2-4648-9082-1560C916CE5C}.Release|Win32.ActiveCfg = Release|Win32
+		{4A98C3CE-C0E2-4648-9082-1560C916CE5C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

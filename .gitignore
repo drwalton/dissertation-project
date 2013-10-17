@@ -1,0 +1,27 @@
+# Visual Studio Files
+*.sdf
+*.opensdf
+*.suo
+*.ilk
+*.pdb
+*.log
+*.tlog
+*.idb
+*.lastbuildstate
+
+# Binaries
+*.exe
+*.dll
+*.lib
+
+# Libraries
+lib/*
+
+# Assets
+*.tga
+*.bmp
+*.png
+*.obj*
+*.avi
+*.prt*
+*.ao*
