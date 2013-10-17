@@ -8,6 +8,7 @@
 *.tlog
 *.idb
 *.lastbuildstate
+build/vs2012/shaders/*
 
 # Binaries
 *.exe
