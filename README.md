@@ -3,6 +3,8 @@
 
 This repository contains the source code developed as part of my MSc dissertation project, carried out July-September 2013 at the University of Warwick.
 
+The project report is available for download [here](http://drwalton.github.io/assets/Dissertation/Dissertation.pdf) (PDF, ~8MB).
+
 ### Project Topic ###
 
 The aim of this project to investigate ways in which both fire itself, and its effect on the lighting of a scene can be rendered in real-time 3D apps. The programming component involved developing a particle-based fire simulation, and investigating ways of linking it to a variety of lighting models to light an model in a convincing way.
