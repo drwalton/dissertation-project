@@ -3,7 +3,7 @@
 
 This repository contains the source code developed as part of my MSc dissertation project, carried out July-September 2013 at the University of Warwick.
 
-The project report is available for download [here](http://drwalton.github.io/assets/Dissertation/Dissertation.pdf) (PDF, ~8MB).
+The project report is available for download [here](http://drwalton.github.io/assets/Dissertation/Dissertation.pdf) (PDF, ~8MB), and a post giving a brief overview of the project is [here](http://drwalton.github.io/2013/10/21/dissertation-project.html).
 
 ### Project Topic ###
 
