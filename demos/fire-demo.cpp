@@ -73,7 +73,7 @@ int main(int argc, char** argv)
 int init()
 {
 	/* Set ambient colour here. */
-	const glm::vec4 ambColor(0.7f, 0.7f, 0.9f, 1.0f); //light blue
+	const glm::vec4 ambColor(0.f, 0.f, 0.f, 1.0f); //light blue
 
 	glClearColor(ambColor.x, ambColor.y, ambColor.z, ambColor.w);
 	glEnable(GL_CULL_FACE);
@@ -140,6 +140,9 @@ int init()
 				nParticles, pShader, flameAlphaTex, flameDecayTex);
 
 		flame->translate(glm::vec3(0.0f, height, 0.0f));
+
+		flame->bbHeight = 0.5f;
+		flame->bbWidth = 0.5f;
 
 		adjust = flame;
 

@@ -3,6 +3,7 @@
 
 #include <GL/glew.h>
 #include <glm.hpp>
+#include "SOIL.h"
 
 #include <string>
 #include <vector>

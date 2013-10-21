@@ -8,6 +8,8 @@
 *.tlog
 *.idb
 *.lastbuildstate
+*.unsuccessfulbuild
+*.user
 build/vs2012/shaders/*
 
 # Binaries
