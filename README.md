@@ -1,7 +1,7 @@
 # Dissertation Project 2013 #
 ## Fire and Lighting in Interactive Applications ##
 
-This repository contains the source code developed as part of my MSc dissertation project, carried out at the University of Warwick.
+This repository contains the source code developed as part of my MSc dissertation project, carried out July-September 2013 at the University of Warwick.
 
 ### Project Topic ###
 
